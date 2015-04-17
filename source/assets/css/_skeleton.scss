@@ -181,7 +181,6 @@ input[type="button"] {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  white-space: nowrap;
   &:focus,
   &:hover {
     border-color: darken($gray, 5%);
@@ -266,8 +265,8 @@ label > .label-body {
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul { list-style: circle inside; }
-ol { list-style: decimal inside; }
+ul { list-style: disc outside; }
+ol { list-style: decimal outside; }
 ol, ul {
   margin-top: 0;
   padding-left: 0;
