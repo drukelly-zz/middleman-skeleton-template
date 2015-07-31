@@ -1,0 +1,25 @@
+{
+  "name": "Middleman Starter Template",
+  "version": "0.0.0",
+  "authors": [
+    "Dru Kelly <drukelly@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionicons": "~2.0.1",
+    "jquery": "~2.1.4",
+    "modernizr": "~2.8.3",
+    "normalize-css": "~3.0.3"
+  }
+}
