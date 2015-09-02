@@ -1,1 +1,24 @@
-_mixins.scss
+// Background Image
+@mixin backgroundImage($image, $height, $width, $position: center top, $size: contain) {
+  background: image-url($image) no-repeat $position;
+  background-size: $size;
+  display: block;
+  height: $height;
+  width: $width;
+}
+
+// Breakpoint
+@mixin breakpoint($map) {
+  $query: "";
+  @if map-has-key($map, min) { $query: append($query, "(min-width: #{map-get($map, min)})") }
+  @if map-has-key($map, min) and map-has-key($map, max) { $query: append($query, "and") }
+  @if map-has-key($map, max) { $query: append($query, "(max-width: #{map-get($map, max)})") }
+  @media screen and #{$query} { @content; }
+}
+
+// Screen Orientation
+@mixin screen-orientation($map) {
+  $query: "";
+  @if map-has-key($map, orientation) { $query: append($query, "(orientation: #{map-get($map, orientation)})") }
+  @media only screen and #{$query} { @content; }
+}
