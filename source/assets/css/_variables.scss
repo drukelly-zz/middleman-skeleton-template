@@ -1,0 +1,46 @@
+// Animation
+$cubic-bezier: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+
+// Colors
+$aqua: #7fdbff;
+$black: #111;
+$blue: #0074d9;
+$fuschia: #f012be;
+$gray: #aaa;
+$green: #2ecc40;
+$lime: #01ff70;
+$maroon: #85144b;
+$navy: #001f3f;
+$olive: #3d9970;
+$orange: #ff851b;
+$purple: #b10dc9;
+$red: #ff4136;
+$silver: #ddd;
+$teal: #39cccc;
+$white: #fff;
+$yellow: #f3c859;
+
+// Breakpoints
+$xs: ( max:  767px );
+$sm: ( min:  768px );
+$md: ( min:  1023px );
+$lg: ( min: 1200px );
+
+$sm-only: ( min: map-get($sm, min), max: map-get($md, min) - 1 );
+$md-only: ( min: map-get($md, min), max: map-get($lg, min) - 1 );
+
+// Screen Orientation
+$portrait: ( orientation: portrait );
+$landscape: ( orientation: landscape );
+
+// Silent Classes
+//-- Image Replacement: Hide text
+%ir {
+  border: 0;
+  color: transparent;
+  font: 0/0 a;
+  text-shadow: none;
+}
+
+// Typefaces
+$proxima-nova: "Proxima Nova", Helvetica, sans-serif;

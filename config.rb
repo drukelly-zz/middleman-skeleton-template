@@ -65,7 +65,15 @@ set :images_dir, 'assets/img'
 
 # Build-specific configuration
 configure :build do
-  # For example, change the Compass output style for deployment
+  # Autoprefixer for CSS
+  activate :autoprefixer do |config|
+    config.browsers = ['last 2 versions', 'Explorer >= 9']
+    config.remove = false
+    config.cascade = false
+    config.inline = true
+  end
+
+  # Minify CSS
   activate :minify_css
 
   # Minify Javascript on build
