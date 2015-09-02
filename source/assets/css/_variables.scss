@@ -33,8 +33,13 @@ $md-only: ( min: map-get($md, min), max: map-get($lg, min) - 1 );
 $portrait: ( orientation: portrait );
 $landscape: ( orientation: landscape );
 
+<<<<<<< HEAD
 // SILENT CLASSES
 // Image Replacement: Hide text
+=======
+// Silent Classes
+//-- Image Replacement: Hide text
+>>>>>>> refs/remotes/origin/master
 %ir {
   border: 0;
   color: transparent;
@@ -43,4 +48,8 @@ $landscape: ( orientation: landscape );
 }
 
 // Typefaces
+<<<<<<< HEAD
 $proxima-nova: Proxima Nova, "Helvetica", sans-serif;
+=======
+$proxima-nova: "Proxima Nova", Helvetica, sans-serif;
+>>>>>>> refs/remotes/origin/master
