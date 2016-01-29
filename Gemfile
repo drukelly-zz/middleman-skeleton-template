@@ -2,13 +2,13 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.3.10"
+gem "middleman"
 
 # Autoprefixer
 gem "middleman-autoprefixer"
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman-livereload"
 
 # Favicon Maker
 gem "middleman-favicon-maker"
