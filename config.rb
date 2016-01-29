@@ -3,7 +3,7 @@
 ###
 
 @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
-sprockets.append_path File.join "#{root}", @bower_config["directory"]
+import_path File.join "#{root}", @bower_config["directory"]
 
 ###
 # Compass
