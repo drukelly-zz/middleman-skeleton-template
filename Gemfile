@@ -7,6 +7,9 @@ gem "middleman"
 # Autoprefixer
 gem "middleman-autoprefixer"
 
+# Bower
+gem "middleman-bower"
+
 # Live-reloading plugin
 gem "middleman-livereload"
 
