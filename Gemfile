@@ -7,17 +7,20 @@ gem "middleman"
 # Autoprefixer
 gem "middleman-autoprefixer"
 
-# Live-reloading plugin
-gem "middleman-livereload"
-
-# Favicon Maker
-gem "middleman-favicon-maker"
+# Compass
+gem "middleman-compass"
 
 # Deploy
 gem "middleman-deploy"
 
-# For faster file watcher updates on Windows:
-gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
+# Favicon Maker
+gem "middleman-favicon-maker"
+
+# Live-reloading plugin
+gem "middleman-livereload"
 
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw]
+
+# For faster file watcher updates on Windows:
+gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
