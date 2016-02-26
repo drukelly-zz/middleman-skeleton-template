@@ -10,11 +10,11 @@ gem "middleman-autoprefixer"
 # Compass
 gem "middleman-compass"
 
-# Deploy
-gem "middleman-deploy"
-
 # Favicon Maker
 gem "middleman-favicon-maker"
+
+# HAML
+gem "haml"
 
 # Live-reloading plugin
 gem "middleman-livereload"
